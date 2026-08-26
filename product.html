@@ -1,0 +1,193 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no" />
+
+  <title>تفاصيل المنتج | Nouré L’Oyon</title>
+
+  <meta name="description" content="كتالوج نور العيون — أحدث موديلات اللانجيري والهوم وير مع معاينة وطلب مباشر.">
+  <link rel="canonical" href="./product.html">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="styles.css" />
+
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Nouré L’Oyon">
+  <meta property="og:title" content="Nouré L’Oyon | نور العيون">
+  <meta property="og:description" content="كتالوج نور العيون — أحدث موديلات اللانجيري والهوم وير مع معاينة وطلب مباشر.">
+  <meta property="og:url" content="./product.html">
+  <meta property="og:image" content="share-cover.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:locale" content="ar_AR">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Nouré L’Oyon | نور العيون">
+  <meta name="twitter:description" content="كتالوج نور العيون — أحدث موديلات اللانجيري والهوم وير مع معاينة وطلب مباشر.">
+  <meta name="twitter:image" content="share-cover.jpg">
+
+  <link rel="icon" type="image/png" href="logoico.png">
+  <link rel="apple-touch-icon" href="logoico.png">
+  <link rel="manifest" href="manifest.webmanifest">
+  <meta name="theme-color" content="#111827">
+
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-8QZ53N8LPS"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-8QZ53N8LPS');
+  </script>
+
+</head>
+
+<body>
+
+  <header class="header">
+    <div class="container header__content">
+      <div class="brand">
+        <a href="./?page=1" id="logoHome" class="logo-link">
+          <img src="logo.png" alt="NouréL’Oyon | Lingerie & Home Wear & More" class="header-logo">
+        </a>
+      </div>
+
+      <div class="actions">
+        <button class="btn btn--ghost icon-only-mobile cart-btn" id="cartBtn" type="button" aria-expanded="false">
+          <i class="fas fa-shopping-bag"></i>
+          <span class="desktop-text">السلة</span>
+          <span class="cart-badge" id="cartBadge" hidden>0</span>
+        </button>
+
+        <a class="btn btn--outline icon-only-mobile" href="#" id="tgBtn" target="_blank" rel="noopener">
+          <i class="fas fa-paper-plane icon-telegram"></i> <span class="desktop-text">قناة تيليجرام</span>
+        </a>
+
+        <div class="dropdown">
+          <button class="btn btn--primary icon-only-mobile dropdown-btn" id="msgBtn" type="button" aria-expanded="false">
+            <i class="fas fa-comments"></i> <span class="desktop-text">مراسلة</span> <i class="fas fa-chevron-down arrow-icon"></i>
+          </button>
+          
+          <div class="dropdown-content" id="msgMenu">
+            <a href="https://wa.me/201151447782" target="_blank" rel="noopener" class="dropdown-item">
+              <i class="fab fa-whatsapp icon-whatsapp"></i> واتساب
+            </a>
+            <a href="https://t.me/+201151447782" target="_blank" rel="noopener" class="dropdown-item">
+              <i class="fas fa-paper-plane icon-telegram"></i> تليجرام
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main class="container">
+    <div id="pWrap" class="pwrap">
+      <div id="pMedia" class="pmedia">
+        <div class="sk" style="width:100%; aspect-ratio:3/4; border-radius:16px;"></div>
+      </div>
+
+      <div class="pinfo">
+        <div class="meta-row">
+          <span id="pCode" class="sk-line" style="width:60px; height:20px;"></span>
+          <span id="pPrice" class="sk-line" style="width:80px; height:20px;"></span>
+        </div>
+
+        <div id="pDesc" class="desc">
+          <div class="sk-line" style="width:100%; height:14px; margin-bottom:6px;"></div>
+          <div class="sk-line" style="width:85%; height:14px; margin-bottom:6px;"></div>
+          <div class="sk-line" style="width:60%; height:14px;"></div>
+        </div>
+
+        <div class="card__actions actions-stack" style="margin-top:12px">
+          <a id="pOrder" class="btn btn--primary" target="_blank" rel="noopener">
+            <i class="fab fa-whatsapp"></i> اطلبي الآن
+          </a>
+          <button id="pAddCart" class="btn btn--ghost" type="button">
+            <i class="fas fa-plus"></i> إضافة إلى السلة
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <div id="installBanner" class="install-banner" hidden>
+      <div class="install-banner__text">
+        <div class="install-banner__title">ثبّت كتالوج نور العيون</div>
+        <div id="installBannerHint" class="install-banner__hint">علشان تفتحه أسرع من غير متصفح ✨</div>
+      </div>
+      <div class="install-banner__actions">
+        <button id="installBtn" class="btn btn--primary" type="button">تثبيت</button>
+        <button id="installClose" class="btn btn--ghost" type="button">إغلاق</button>
+      </div>
+    </div>
+    <button class="similar-jump-btn" id="similarJumpBtn" type="button" hidden>
+      <span>قد يعجبك أيضًا</span>
+      <i class="fas fa-angle-double-down"></i>
+    </button>
+    <section class="similar-section" id="similarSection" hidden>
+      <div class="section-head">
+        <h2 class="section-title">قد يعجبك أيضًا</h2>
+      </div>
+      <div class="similar-grid" id="similarGrid"></div>
+    </section>
+  </main>
+
+  <div class="cart-overlay" id="cartOverlay" hidden></div>
+  <aside class="cart-drawer" id="cartDrawer" aria-hidden="true">
+    <div class="cart-head">
+      <div class="cart-head__titlewrap"><div class="cart-title">سلة المشتريات</div><button class="cart-clear" id="cartClear" type="button">حذف الجميع</button></div>
+      <button class="btn btn--ghost cart-close" id="cartClose" type="button">
+        <i class="fas fa-times"></i>
+      </button>
+    </div>
+    <div class="cart-body" id="cartItems"></div>
+    <div class="cart-foot">
+      <div class="cart-total">
+        <span>الإجمالي</span>
+        <strong id="cartTotal">0 ج.م</strong>
+      </div>
+      <div class="cart-countline">عدد المنتجات: <strong id="cartCountLine">0</strong></div>
+      <a class="btn btn--primary cart-order" id="cartOrder" target="_blank" rel="noopener">
+        <i class="fab fa-whatsapp"></i> اطلب الآن
+      </a>
+    </div>
+  </aside>
+
+  <script src="product.js"></script>
+
+  <script>
+    (function () {
+      const msgBtn = document.getElementById("msgBtn");
+      const msgMenu = document.getElementById("msgMenu");
+      function closeMsgMenu(){
+        if (!msgMenu) return;
+        msgMenu.classList.remove("open");
+        if (msgBtn) msgBtn.setAttribute("aria-expanded", "false");
+      }
+      function toggleMsgMenu(){
+        if (!msgMenu) return;
+        const isOpen = msgMenu.classList.toggle("open");
+        if (msgBtn) msgBtn.setAttribute("aria-expanded", isOpen ? "true" : "false");
+      }
+      if (msgBtn && msgMenu) {
+        msgBtn.addEventListener("click", (e) => {
+          e.preventDefault();
+          e.stopPropagation();
+          toggleMsgMenu();
+        });
+        msgMenu.addEventListener("click", (e) => e.stopPropagation());
+        document.addEventListener("click", () => closeMsgMenu());
+        document.addEventListener("keydown", (e) => {
+          if (e.key === "Escape") closeMsgMenu();
+        });
+      }
+    })();
+  </script>
+
+</body>
+</html>
