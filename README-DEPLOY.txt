@@ -21,3 +21,4 @@ NOUR CATALOG — HOSTING PACKAGE
 - أدوات مسح/رفع Cloudflare المحلية
 
 استبعاد هذه الملفات لا يغيّر تصميم الموقع أو وظائف العرض والبحث والسلة.
+rcel Git deployment enabled.
